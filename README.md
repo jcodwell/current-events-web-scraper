@@ -42,7 +42,12 @@ python manage.py startapp current_events
 ### 6. Add App to INSTALLED_APPS
 Add `'current_events'` to the `INSTALLED_APPS` list in `config/settings.py`
 
-### 7. Run Development Server
+### 7. Run Migrations
+```bash
+python manage.py migrate
+```
+
+### 8. Run Development Server
 ```bash
 python manage.py runserver
 ```
