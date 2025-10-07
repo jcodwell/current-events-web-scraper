@@ -9,13 +9,24 @@ python3 -m venv venv
 ```
 
 ### 2. Activate Virtual Environment
+
+**Linux/Mac (bash):**
 ```bash
 source venv/bin/activate
 ```
 
-### 3. Install Django
+**Windows PowerShell:**
+```powershell
+venv\Scripts\Activate.ps1
+```
+If you get an execution policy error, run this first:
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+### 3. Install Dependencies
 ```bash
-pip install django
+pip install -r requirements.txt
 ```
 
 ### 4. Create Django Project
