@@ -1,0 +1,17 @@
+# Django
+Django==5.2.7
+
+# Web Scraping
+beautifulsoup4==4.12.3
+requests==2.32.3
+lxml==5.3.0
+
+# Async support (optional, for async scraping)
+httpx==0.28.1
+aiohttp==3.11.11
+
+# Data handling
+# python-dateutil
+
+# Environment variables
+# python-deenv
